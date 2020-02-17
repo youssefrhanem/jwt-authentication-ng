@@ -1,0 +1,43 @@
+
+<body class="d-flex flex-column h-100">
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Authentication</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/']">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/login']" >Log in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/logout']" >Log out</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/account/profile']">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Authentication Home Page</h1>
+    <p class="lead">Hope you are doing okay.</p>
+    <p>:D</p>
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">Auth@2020</span>
+  </div>
+</footer>
+
